@@ -1,0 +1,25 @@
+{
+  "name": "business-directory",
+  "version": "1.0.0",
+  "description": "A simple business directory API using NodeJS, Express.js, NoSQL (mongoDB) and Postman (for testing).\r Create endpoints using 4 basic methods: GET, PUT, POST, and DELETE.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamalataRendani/Business-Directory.git"
+  },
+  "author": "Rendani Ramalata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RamalataRendani/Business-Directory/issues"
+  },
+  "homepage": "https://github.com/RamalataRendani/Business-Directory#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.0"
+  }
+}
